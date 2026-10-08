@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-08",
+  "date_timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "networkx-shortest-simple-paths",
+      "url": "https://raw.githubusercontent.com/networkx/networkx/6da4704cbf32ba6f50f6d9c46cc0a071e3a87985/networkx/algorithms/simple_paths.py",
+      "status": "retrieved",
+      "http_status": 200,
+      "retrieved_at": "2026-10-08T08:10:05.917485+00:00",
+      "sha256": "f281bf6d10d546b04a5420c48d92c75b7432cebbf9295ca7a7e1e5d26e523660",
+      "evidence_excerpt": "def shortest_simple_paths(G, source, target, weight=None):\n    \"\"\"Generate all simple paths in the graph G from source to target,\n       starting from shortest ones.\n\n    A simple path is a path with no repeated nodes.\n\n    If a weighted shortest path search is to be used, no negative weights\n    are allowed.\n\n    Parameters\n    ----------\n    G : NetworkX graph\n\n    source : node\n       Starting node for path\n\n    target : node\n       Ending node for path\n\n    weight : string or function\n        If it is a string, it is the name of the edge attribute to be\n        used as a weight.\n\n        If it is a function, the weight of an edge is the value returned\n        by the function. The function must accept exactly three positional\n        arguments: the two endpoints of an edge and the dictionary of edge\n        attributes for that edge. The function must return a number or None.\n        The weight function can be used to hide edges by returning None.\n        So ``weight = lambda u, v, d: 1 if d['color']==\"red\" else None``\n        will find the shortest red path.\n\n        If None all edges are considered to have unit weight. Default\n        value None.\n\n    Returns\n    -------\n    path_generator: generator\n       A generator that produces lists of simple paths, in order from\n       shortest to longest.\n\n    Raises\n    ------\n    NetworkXNoPath\n       If no path exists between source and target.\n\n    NetworkXError\n       If source or target nodes are not in the input graph.\n\n    NetworkXNotImplemented\n       If the input graph is a Multi[Di]Graph.\n\n    Examples\n    --------\n\n    >>> G = nx.cycle_graph(7)\n    >>> paths = list(nx.shortest_simple_paths(G, 0, 3))\n    >>> print(paths)\n    [[0, 1, 2, 3], [0, 6, 5, 4, 3]]\n\n    You can use this function to efficiently compute the k shortest/best\n    paths between two nodes.\n\n    >>> from itertools import islice\n    >>> def k_shortest_paths(G, source, target, k, weight=None):\n    ...     return list(\n    ...         islice(nx.shortest_simple_paths(G, source, target, weight=weight), k)\n    ...     )\n    >>> for path in k_shortest_paths(G, 0, 3, 2):\n    ...     print(path)\n    [0, 1, 2, 3]\n    [0, 6, 5, 4, 3]\n\n    Notes\n    -----\n    This procedure is based on algorithm by Jin Y. Yen [1]_.  Finding\n    the first $K$ paths requires $O(KN^3)$ operations.\n\n    See Also\n    --------\n    all_shortest_paths\n    shortest_path\n    all_simple_paths\n\n    References\n    ----------\n    .. [1] Jin Y. Yen, \"Finding the K Shortest Loopless Paths in a\n       Network\", Management Science, Vol. 17, No. 11, Theory Series\n       (Jul., 1971), pp. 712-716.\n\n    \"\"\"\n",
+      "scope": "software documentation; cited papers not retrieved"
+    },
+    {
+      "id": "nasa-lhasa-readme",
+      "url": "https://raw.githubusercontent.com/nasa/LHASA/b8036f7ad4ae27d3faa333c809ecb1de7b218d4a/README.md",
+      "status": "retrieved",
+      "http_status": 200,
+      "retrieved_at": "2026-10-08T08:10:06.131252+00:00",
+      "sha256": "ba0940c006d610353bdd5624bfcf9a09ef51f13ef3fe28138458a1d34c9c6c59",
+      "evidence_excerpt": "## LHASA 2.1.1\n\nLHASA version 2 adopts machine learning to estimate the probability of landslide occurrence at a 30-arcsecond (~1 km) daily resolution. In addition, it estimates the potential exposure of human population and roads to landslide hazard and maps the basins likely to experience post-fire debris flows. \n\n### Real-time data availability\nThe latest predictions can be downloaded from https://maps.nccs.nasa.gov/download/landslides. It can also be accessed as an ArcGIS web map at https://landslides.nasa.gov/viewer. NASA provides these data on a best-effort basis, typically four times each day, but with frequent server downtime. Users requiring a fully operational system are encouraged to clone this repository and run LHASA at the desired cadence.\n\n\n### Citation\n\nEmberson, R., D. Kirschbaum, and T. Stanley. 2020. \"New global characterisation of landslide exposure.\" Natural Hazards and Earth System Sciences, 20 (12): 3413-3424 [10.5194/nhess-20-3413-2020](https://doi.org/10.5194/nhess-20-3413-2020)\n\nKirschbaum, D., and T. Stanley. 2018. \"Satellite-Based Assessment of Rainfall-Triggered Landslide Hazard for Situational Awareness.\" Earth's Future, 6 (3): 505-523 [10.1002/2017ef000715](https://doi.org/10.1002/2017ef000715)\n\nStanley, T., and D. B. Kirschbaum. 2017. \"A heuristic approach to global landslide susceptibility mapping.\" Natural Hazards, 1-20 [10.1007/s11069-017-2757-y](https://doi.org/10.1007/s11069-017-2757-y)\n\n",
+      "scope": "software documentation; cited papers not retrieved"
+    },
+    {
+      "id": "crossref-yen",
+      "url": "https://api.crossref.org/works/10.1287%2Fmnsc.17.11.712",
+      "status": "blocked",
+      "observed_error": "Tunnel connection failed: 403 Forbidden",
+      "checked_on": "2026-10-08",
+      "scope": "no metadata or contents retrieved"
+    },
+    {
+      "id": "openalex-yen",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1287/mnsc.17.11.712",
+      "status": "blocked",
+      "observed_error": "Tunnel connection failed: 403 Forbidden",
+      "checked_on": "2026-10-08",
+      "scope": "no metadata or contents retrieved"
+    },
+    {
+      "id": "usgs-landslides",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-induced-landslides",
+      "status": "blocked",
+      "observed_error": "Tunnel connection failed: 403 Forbidden",
+      "checked_on": "2026-10-08",
+      "scope": "no metadata or contents retrieved"
+    },
+    {
+      "id": "jag-scope",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/aims-and-scope",
+      "status": "blocked",
+      "observed_error": "Tunnel connection failed: 403 Forbidden",
+      "checked_on": "2026-10-08",
+      "scope": "no metadata or contents retrieved"
+    },
+    {
+      "id": "isprs-scope",
+      "url": "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/aims-and-scope",
+      "status": "blocked",
+      "observed_error": "Tunnel connection failed: 403 Forbidden",
+      "checked_on": "2026-10-08",
+      "scope": "no metadata or contents retrieved"
+    }
+  ]
+}
