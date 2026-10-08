@@ -8,11 +8,11 @@
 |---|---|---|---|
 | P0 | [Google Scholar](https://scholar.google.com/) 或 [Semantic Scholar](https://www.semanticscholar.org/) | `geographically correlated failures alternative paths`；`shared risk link group disjoint routing`；`backup route portfolio network reliability` | 最接近的 5–10 篇论文的完整题名、年份、DOI与摘要；有正文时重点为方法、风险模型及实验部分 |
 | P0 | [USGS](https://www.usgs.gov/) 与 [ScienceBase](https://www.sciencebase.gov/catalog/)；相关论文的数据附件 | `Wenchuan postseismic landslide inventory`；`Gorkha post earthquake landslide inventory`；`landslide road blockage` | 数据集名称、引用/链接、覆盖范围、发生/观测时间、同震还是震后、数据类型、许可、是否可下载 |
-| P0 | [JAG 期刊范围](https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/aims-and-scope) 与其站内论文检索 | 官方 aims and scope；`landslide road accessibility`、`disaster resilient routing` 等最接近主题 | 范围说明文字，以及最接近的 3–5 篇论文题名、年份、DOI、摘要；如果检索不到，也记录词组和结果 |
+| P0 | [JAG 期刊范围](https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/aims-and-scope) 与其站内论文检索 | 范围文字已由用户提供；后续检索 `landslide road accessibility`、`disaster resilient routing` 等最接近主题 | 范围说明无须重复提供；优先补充最接近论文的正文或可获取链接 |
 | P1 | [RFC 4202](https://www.rfc-editor.org/rfc/rfc4202.html) | Shared Risk Link Group 的定义 | 相关定义段落与参考文献；用于判断“同一风险影响多条边”的已有概念 |
 | P1 | [NASA LHASA](https://github.com/nasa/LHASA)、[滑坡预警产品入口](https://maps.nccs.nasa.gov/download/landslides) | 产品说明、存档覆盖时间、分辨率和许可 | 对应历史时期是否有数据、产品的概率含义和验证方式；目前不需要大规模栅格下载 |
 | P1 | [OpenTopography](https://portal.opentopography.org/datasets)；[Geofabrik 亚洲道路数据](https://download.geofabrik.de/asia.html) | 候选区域 DEM 与道路数据说明 | 产品名称、精度/分辨率、日期、历史版本可得性、许可；待区域确定后再下载 |
-| P1 | [ISPRS Journal 期刊范围](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/aims-and-scope) | 官方范围及灾害道路信息提取相关论文 | 范围文字、最相关的方法论文摘要，用于判断遥感/空间信息方法贡献需要达到的程度 |
+| P1 | [ISPRS Journal 期刊范围](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/aims-and-scope) | 范围文字已由用户提供；后续关注空间共同风险建模与创新应用论文 | 范围说明无须重复提供；最相关的方法论文或可获取链接用于比较贡献 |
 
 从已有摘要继续做前向和后向引用追踪，比无差别收集大量一般救灾论文更有效。最重要的是共同失效路线组合与可用于独立验证的真实资料。
 
@@ -60,3 +60,9 @@ JAG 与 ISPRS 的上述范围页面仍返回代理 `403 Forbidden`。因此用�
 Crossref 并发查询曾出现 429 和一次 500；后续较低并发的定向检索成功。这属于本轮具体请求的限流/服务错误，不能归类为域名完全不可访问。
 
 详细状态与证据见[复查报告](network_recheck.md)及[新增访问记录](../references/access_recheck_2026-10-08.json)。此前的草稿说明保留为历史记录。
+
+## 用户补充后的更新（2026-10-08）
+
+JAG 范围说明已通过聊天文字收到，ISPRS 范围说明已通过文本附件收到。两个材料均已保存并记录来源，见[期刊定位更新](journal_fit.md)。原先缺少范围文字的事项已解决；官网能否直接访问与收到用户材料分别记录，不需要重复索取范围说明。
+
+本轮已通过 Crossref/OpenAlex 获取三篇 JAG 相关论文的元数据和摘要；一篇关于空间误差相关性的论文可从机构库下载 PDF。优先事项转为最接近方法的全文对比与实际数据可获取性核查。

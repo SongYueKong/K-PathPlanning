@@ -1,0 +1,423 @@
+{
+  "retrieved_at": "2026-10-08T11:32:09.651812+00:00",
+  "journal_filter_issn": "1569-8432",
+  "crossref_queries_unscreened": [
+    {
+      "query": "landslide road exposure accessibility",
+      "url": "https://api.crossref.org/journals/1569-8432/works?query=landslide+road+exposure+accessibility&rows=5&select=title%2CDOI%2Cpublished%2Ccontainer-title%2Cauthor%2Cabstract%2Ctype",
+      "status": 200,
+      "works": [
+        {
+          "title": [
+            "Retrieving 4D landslide displacement using Pléiades satellite stereo pairs on the La Valette landslide"
+          ],
+          "doi": "10.1016/j.jag.2025.104613",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Fu",
+            "de Jong",
+            "Nijland",
+            "Gravey",
+            "Kraaijenbrink",
+            "de Haas"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Landslide susceptibility assessment of the Wanzhou district: Merging landslide susceptibility modelling (LSM) with InSAR-derived ground deformation map"
+          ],
+          "doi": "10.1016/j.jag.2025.104365",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Zhou",
+            "Gan",
+            "Cao",
+            "Wang",
+            "Segoni",
+            "Shi",
+            "Motagh",
+            "Singh"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "InSAR-based landslide susceptibility analysis in karst erosion landforms using a non-landslide sampling strategy"
+          ],
+          "doi": "10.1016/j.jag.2025.104997",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Liu",
+            "Zhang",
+            "Zhang",
+            "Ren",
+            "Chen"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Landslide hazard spatiotemporal prediction based on data-driven models: Estimating where, when and how large landslide may be"
+          ],
+          "doi": "10.1016/j.jag.2023.103631",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                2
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Fang",
+            "Wang",
+            "van Westen",
+            "Lombardo"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Landslide risk analysis between Giri and Tons Rivers in Himachal Himalaya (India)"
+          ],
+          "doi": "10.1016/s0303-2434(00)85009-6",
+          "published": {
+            "date-parts": [
+              [
+                2000
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Rautela",
+            "Lakhera"
+          ],
+          "abstract": ""
+        }
+      ]
+    },
+    {
+      "query": "landslide runout spatial uncertainty",
+      "url": "https://api.crossref.org/journals/1569-8432/works?query=landslide+runout+spatial+uncertainty&rows=5&select=title%2CDOI%2Cpublished%2Ccontainer-title%2Cauthor%2Cabstract%2Ctype",
+      "status": 200,
+      "works": [
+        {
+          "title": [
+            "Scientists yet to consider spatial correlation in assessing uncertainty of spatial averages and totals"
+          ],
+          "doi": "10.1016/j.jag.2025.104472",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Wadoux",
+            "Heuvelink"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Spatial-temporal evolution of landslide cracks revealed by UAV photogrammetry: The FCS-YOLO model for precise crack extraction under complex backgrounds"
+          ],
+          "doi": "10.1016/j.jag.2026.105303",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Zhou",
+            "Ding",
+            "Xue",
+            "Dong",
+            "Li"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "An approach for prediction of shoreline with spatial uncertainty mapping (SLiP-SUM)"
+          ],
+          "doi": "10.1016/j.jag.2018.08.005",
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                12
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "San",
+            "Ulusar"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Combining spatial response features and machine learning classifiers for landslide susceptibility mapping"
+          ],
+          "doi": "10.1016/j.jag.2022.102681",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Wei",
+            "Ye",
+            "Sui",
+            "Ge",
+            "Li",
+            "Li"
+          ],
+          "abstract": ""
+        },
+        {
+          "title": [
+            "Retrieving 4D landslide displacement using Pléiades satellite stereo pairs on the La Valette landslide"
+          ],
+          "doi": "10.1016/j.jag.2025.104613",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6
+              ]
+            ]
+          },
+          "venue": [
+            "International Journal of Applied Earth Observation and Geoinformation"
+          ],
+          "authors": [
+            "Fu",
+            "de Jong",
+            "Nijland",
+            "Gravey",
+            "Kraaijenbrink",
+            "de Haas"
+          ],
+          "abstract": ""
+        }
+      ]
+    }
+  ],
+  "openalex_metadata_and_abstract_summaries": [
+    {
+      "name": "Fang et al. hazard prediction",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jag.2023.103631",
+      "status": 200,
+      "title": "Landslide hazard spatiotemporal prediction based on data-driven models: Estimating where, when and how large landslide may be",
+      "doi": "https://doi.org/10.1016/j.jag.2023.103631",
+      "year": 2023,
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1016/j.jag.2023.103631",
+        "any_repository_has_fulltext": true
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.jag.2023.103631",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "https://research.utwente.nl/en/publications/0e655d83-f0dc-462c-8a85-a082fd9208a4",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "https://doaj.org/article/0a9df97a6c244c2c9888cf8e67ade40d",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        }
+      ],
+      "abstract_available": true,
+      "abstract_sha256": "e53c0f9ffa1ccb2982deb11f2fd84ed1d420706149bf93ded2f601cd8b2c06ac",
+      "abstract_summary": "The supplied abstract describes joint modelling of landslide occurrence location, time and magnitude using slope units, static/dynamic factors, and spatial-temporal interactions, tested with Taiwan inventories from 2004 to 2018 and spatial-temporal leave-one-out validation."
+    },
+    {
+      "name": "Wadoux-Heuvelink spatial uncertainty",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jag.2025.104472",
+      "status": 200,
+      "title": "Scientists yet to consider spatial correlation in assessing uncertainty of spatial averages and totals",
+      "doi": "https://doi.org/10.1016/j.jag.2025.104472",
+      "year": 2025,
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1016/j.jag.2025.104472",
+        "any_repository_has_fulltext": true
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.jag.2025.104472",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "https://research.wur.nl/en/publications/scientists-yet-to-consider-spatial-correlation-in-assessing-uncer",
+          "pdf_url": "https://edepot.wur.nl/691058",
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://hal.inrae.fr/hal-05034335",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://doaj.org/article/327f36f91f2745528f5aa680096aaf4b",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        }
+      ],
+      "abstract_available": true,
+      "abstract_sha256": "edb196ceb4b0b2a85b45bd0b662a46967ef8775b38817d9765aebc796babc9b0",
+      "abstract_summary": "The supplied abstract argues that spatial dependence in map errors can make uncertainty estimates for spatially aggregated products inaccurate. Its stated targets are spatial averages and totals; route-portfolio reliability is not established by that abstract."
+    },
+    {
+      "name": "Zhou et al. InSAR susceptibility",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jag.2025.104365",
+      "status": 200,
+      "title": "Landslide susceptibility assessment of the Wanzhou district: Merging landslide susceptibility modelling (LSM) with InSAR-derived ground deformation map",
+      "doi": "https://doi.org/10.1016/j.jag.2025.104365",
+      "year": 2025,
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1016/j.jag.2025.104365",
+        "any_repository_has_fulltext": true
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.jag.2025.104365",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "https://digitalcommons.chapman.edu/scs_articles/1085",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://doaj.org/article/fb97e063d4b745ea82c948028838ec55",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://www.sciencedirect.com/science/article/pii/S1569843225000123",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://gfzpublic.gfz-potsdam.de/pubman/item/item_5033022",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://gfzpublic.gfz.de/pubman/item/item_5033022",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://doi.org/10.15488/21797",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": null
+        }
+      ],
+      "abstract_available": true,
+      "abstract_sha256": "72fd18d15cbe617d504e845f3703b5a63ff5198741ac63ee873b1f9c894b9d8c",
+      "abstract_summary": "The supplied abstract describes combining catalog-based susceptibility modelling and multi-temporal InSAR deformation in Wanzhou, with Sentinel-1 observations from 2018 to 2020. It motivates updating susceptibility information; it does not establish time-window-specific road failure probabilities."
+    }
+  ],
+  "institutional_fulltext_access_check": {
+    "url": "https://edepot.wur.nl/691058",
+    "resolved_url": "https://edepot.wur.nl/691058",
+    "status": 200,
+    "bytes": 867974,
+    "sha256": "de2e3efdce36090b5429b59affb51bb6d64b71bf2520584e38f741c2139a67a9",
+    "pdf_to_text_exit_code": 0,
+    "pages_detected": 3,
+    "reading_status": "Access and text conversion check only; full-paper methodological review not completed."
+  },
+  "limitations": [
+    "Not a systematic review.",
+    "Abstract summaries are paraphrases; full-paper methods not yet reviewed.",
+    "Crossref dates one article to 2024-02 while OpenAlex gives 2023; online/issue dates not resolved."
+  ]
+}

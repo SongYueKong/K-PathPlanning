@@ -1,0 +1,57 @@
+Official Publication of the [International Society for Photogrammetry and Remote Sensing](http://www.isprs.org/) (ISPRS)
+The ISPRS Journal of Photogrammetry and Remote Sensing (P&RS) is the official journal of the [International Society for Photogrammetry and Remote Sensing](http://www.isprs.org/) (ISPRS). The Journal provides a channel of communication for scientists and professionals in all countries working in the many disciplines that employ photogrammetry, remote sensing, spatial information systems, computer vision, and related fields. The Journal is designed to serve as a source reference and archive of advancements in these disciplines.
+The P&RS objective is to publish high quality, peer-reviewed, preferably previously unpublished papers of a scientific/research, technological development or application/practical nature. P&RS will publish papers, including those based on ISPRS meeting presentations*, which are regarded as significant contributions in the above-mentioned fields. We especially encourage papers: of broad scientific interest; on innovative applications, particularly in new fields; of an interdisciplinary nature; on topics that have not been dealt with (or to a small degree) by P&RS or related journals; and on topics related to new possible scientific/professional directions. Preferably, theoretical papers should include applications, and papers dealing with systems and applications should include theoretical background.
+The scope of the journal is extensive and covers sensors, theory and algorithms, systems, experiments, developments and applications. Topics of interest include but are not limited to:
+Sensors
+- Airborne, spaceborne and terrestrial imaging systems
+- Airborne and terrestrial cameras
+- Airborne, terrestrial and mobile laser scanning
+- Range imaging
+- Active and passive imaging sensor characterisation
+- Sensor calibration and standardisation
+- Geosensor and environmental networks
+- Internet of Things
+
+Methods and procedures
+- Spatial data handling technologies
+- Integrated sensor calibration and orientation
+- Surface and object reconstruction, modelling and interpretation
+- Geospatial data modelling, representation and structures
+- Database systems
+- Mapping from imagery
+- Visualisation, virtual reality, and digital twins
+- Physical measurements and spectral signatures
+- Point cloud processing
+- Extraction of geometric and semantic information from SAR
+- SAR Interferometry
+- Image classification algorithms
+- Image segmentation and GEOBIA
+- Image time series analysis
+- Hyperspectral data analysis
+- Big image data analysis
+- Crowd sourcing
+- Feature extraction
+- Machine and deep learning for Earth observations data analysis and interpretation
+
+Applications and products
+- Urban modeling and analysis
+- Close-range imaging and metrology
+- Forest and agricultural remote sensing
+- Determination of forest metrics
+- Medical image analysis and biometry
+- Resource and environmental modelling
+- Global monitoring and assessment
+- Thematic applications
+- DTM and orthoimage generation
+- Location based services
+- Climate resilience and sustainable development                                                                                                                                             
+Submitted articles may be:
+- Papers (detailed discussions involving new research, technological developments or applications);
+- Review Papers (extensive state-of-the-art surveys of established or emerging topics or application areas)
+- Perspective Paper (new useful ideas and brief pertinent comments of a technical nature. We are especially interested in those articles that can provide a vision for the ISPRS fields or sub-fields, suggest a new research direction, detect an emerging trend in the literature, or synthesize advances across multiple sub-fields of the Journal and beyond. Perspective articles cannot be longer than 4,000 words, with up to 5 figures/tables and 50 references); or
+- Comments and Editorials (letters to the Editor about the journal or commenting on previously published papers; editorials, mainly after an invitation by the Editorial Advisory Board).
+                                                                                                                               
+NOTE: All articles, except correspondence, will be peer-reviewed and should be of high scientific level.
+* Journal paper submissions based on past conference publications are only allowed if the submitted manuscript is significantly extended or otherwise enhanced. That is, the journal article will only be considered if more extensive experiments and discussion are presented (even if the same methods are used) and/or the methods have been significantly improved and/or advanced (even if the same datasets have been used). The burden of explicitly describing the differences between these publications rests with the author(s). In case of a strong overlap with another publication, the manuscript should be rejected.
+P&RS issues may be devoted to specific scientific topics of high or increasing importance (Theme Issues), especially in relation to one or more ISPRS Working Groups, as well as to special events, geographic regions, professional activities etc. The number and topics of Theme Issues will be such that the P&RS still remains of interest to the majority of its subscribers.
+For more details on the International Society for Photogrammetry and Remote Sensing, visit [http://www.isprs.org](http://www.isprs.org/).

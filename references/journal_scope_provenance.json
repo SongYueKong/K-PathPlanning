@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "journal": "JAG",
+      "source_type": "user_supplied",
+      "provided_on": "2026-10-08",
+      "date_timezone": "Asia/Shanghai",
+      "file": "jag_scope_user_supplied.md",
+      "sha256": "c4b6761a374e90569deb8c046dbd5cb29dd23c1137974df3fd36e4d9540636d2",
+      "source_method": "user pasted text in chat",
+      "associated_scope_url": "https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/aims-and-scope",
+      "verification_note": "User-provided scope text retained. Associated publisher URL was blocked in preceding direct access checks; text not independently retrieved from that page."
+    },
+    {
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "source_type": "user_supplied",
+      "provided_on": "2026-10-08",
+      "date_timezone": "Asia/Shanghai",
+      "file": "isprs_scope_user_supplied.txt",
+      "sha256": "e8e9c256ab90834be6b9a4b475603d7c143a854d4edee033a86eea4ff2e86030",
+      "source_method": "user uploaded pasted text",
+      "associated_scope_url": "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/aims-and-scope",
+      "verification_note": "User-provided scope text retained. Associated publisher URL was blocked in preceding direct access checks; text not independently retrieved from that page."
+    }
+  ]
+}

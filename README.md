@@ -7,6 +7,7 @@
 ## 第一阶段文档
 
 - [研究方案](docs/research_plan.md)：研究问题、贡献假设、推进顺序和停止条件。
+- [期刊定位更新](docs/journal_fit.md)：根据用户提供的JAG、ISPRS范围说明收紧研究主线。
 - [数学定义](docs/problem_formulation.md)：共同失效、路线组合目标、可达性上界及算法适用边界。
 - [文献核查](docs/literature_review.md)：已核实材料、待检索研究和逐篇比较表。
 - [数据与实验](docs/data_and_experiments.md)：案例筛选、时间边界、对照方法和验证方案。
