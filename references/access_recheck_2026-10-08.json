@@ -1,0 +1,1069 @@
+{
+  "checked_at": "2026-10-08T08:48:16.299890+00:00",
+  "date_timezone": "Asia/Shanghai",
+  "configuration_observed": {
+    "network_policy_type": "unrestricted",
+    "note": "configuration metadata; endpoint results are listed separately"
+  },
+  "endpoint_checks": [
+    {
+      "name": "Crossref",
+      "status": 200,
+      "url": "https://api.crossref.org/works?query=geographically+correlated+failures+alternative+paths&rows=5&select=title%2CDOI%2Cpublished%2Ccontainer-title"
+    },
+    {
+      "name": "OpenAlex",
+      "status": 200,
+      "url": "https://api.openalex.org/works?search=spatially+correlated+failures+routing&per-page=5"
+    },
+    {
+      "name": "USGS original URL",
+      "status": 404,
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-induced-landslides"
+    },
+    {
+      "name": "JAG scope",
+      "status": null,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation/about/aims-and-scope"
+    },
+    {
+      "name": "ISPRS scope",
+      "status": null,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "url": "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/aims-and-scope"
+    },
+    {
+      "name": "RFC4202 HTML",
+      "status": 200,
+      "url": "https://www.rfc-editor.org/rfc/rfc4202.html"
+    },
+    {
+      "name": "NASA LHASA README",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/nasa/LHASA/master/README.md"
+    }
+  ],
+  "follow_up_access": [
+    {
+      "name": "USGS landslide program",
+      "url": "https://www.usgs.gov/programs/landslide-hazards",
+      "status": 200,
+      "data": [
+        "/media/images/2026-hurricane-lala-landslide-source-areas",
+        "/media/images/2026-venezuela-earthquake-sequence-landslide-hazards",
+        "/media/images/blocked-culvert-under-roadway-being-cleaned-out-after-2026-hurricane-lala-landslides",
+        "/media/images/screenshot-usgs-hurricane-helene-landslide-photo-viewer",
+        "/natural-hazards/landslide-hazards/science",
+        "/natural-hazards/landslide-hazards/science/current-monitoring-stations",
+        "/natural-hazards/landslide-hazards/science/emergency-assessment-post-fire-debris-flow-hazards",
+        "/news/featured-story/helping-prepare-nation-against-landslide-threats",
+        "/news/state-news-release/new-usgs-funded-science-will-support-landslide-public-safety-and-disaster",
+        "/programs/landslide-hazards",
+        "/programs/landslide-hazards/connect",
+        "/programs/landslide-hazards/data",
+        "/programs/landslide-hazards/maps",
+        "/programs/landslide-hazards/monitoring",
+        "/programs/landslide-hazards/multimedia",
+        "/programs/landslide-hazards/news",
+        "/programs/landslide-hazards/partners",
+        "/programs/landslide-hazards/publications",
+        "/programs/landslide-hazards/science",
+        "/programs/landslide-hazards/science/castro-peak-postfire-landslide-monitoring-station-recent",
+        "/programs/landslide-hazards/science/education",
+        "/programs/landslide-hazards/science/faqs",
+        "/programs/landslide-hazards/science/landslide-and-debris-flow-event-summaries",
+        "/programs/landslide-hazards/science/pasadena-glen-postfire-landslide-monitoring-station-recent",
+        "/programs/landslide-hazards/science/postfire-landslide-monitoring-station-pasadena-glen-2025-eaton",
+        "/programs/landslide-hazards/software",
+        "/programs/landslide-hazards/what-we-do-landslide-hazards-program",
+        "https://apps.usgs.gov/landslides/gfdb/",
+        "https://www.usgs.gov/programs/landslide-hazards",
+        "https://www.usgs.gov/programs/landslide-hazards/landslide-basics",
+        "https://www.usgs.gov/tools/us-landslide-inventory-and-susceptibility-map"
+      ]
+    },
+    {
+      "name": "USGS inventory search",
+      "url": "https://www.usgs.gov/search?keywords=earthquake+landslide+inventories",
+      "status": 200,
+      "data": [
+        "/data/comprehensive-global-database-earthquake-induced-landslide-events-and-their-impacts",
+        "/data/comprehensive-global-database-earthquake-induced-landslide-events-and-their-impacts-ver-20",
+        "/data/coseismic-landslide-runout-and-mobility-ratio-data-publicly-available-mapped-landslide",
+        "/data/open-repository-earthquake-triggered-ground-failure-inventories",
+        "/media/videos/cascading-river-hazards-seismic-and-tropical-cyclone-triggered-landslides-taiwan",
+        "/media/videos/landslide-susceptibility-map-generated-using-regiongrow3d",
+        "/media/videos/landslide-susceptibility-minnesota-insight-landslide-inventory-mapping-and-lidar",
+        "/media/videos/landslides-triggered-hurricane-maria-assessment-extreme-event-puerto-rico",
+        "/media/videos/pubtalk-042023-gravity-never-sleeps-landslide-science-and-risk-reduction",
+        "/publications/a-global-empirical-model-near-real-time-assessment-seismically-induced-landslides",
+        "/publications/coseismic-landslides-reveal-near-surface-rock-strength-a-high-relief-tectonically",
+        "/publications/evaluation-remote-mapping-techniques-earthquake-triggered-landslide-inventories-urban",
+        "/publications/landslide-inventories-essential-part-seismic-landslide-hazard-analyses",
+        "/publications/open-repository-earthquake-triggered-ground-failure-inventories",
+        "/publications/presentation-and-analysis-a-worldwide-database-earthquake-induced-landslide",
+        "/publications/updated-method-estimating-landslide-event-magnitude",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_location%3Aalaska",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_location%3Acalifornia",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_location%3Aminnesota",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_location%3Apuerto%20rico",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2011",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2014",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2017",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2018",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2020",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2021",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2022",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2023",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2024",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=by_year%3A2026",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Amultimedia_image",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Amultimedia_image-141771",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Amultimedia_video",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Amultimedia_video-149194",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Aproducts_data",
+        "/search?keywords=earthquake%20landslide%20inventories&f%5B0%5D=usgs_facet%3Aproducts_publications"
+      ]
+    },
+    {
+      "name": "DataCite Gorkha inventories",
+      "url": "https://api.datacite.org/dois?query=Gorkha+landslide&page%5Bsize%5D=5",
+      "status": 200,
+      "data": [
+        {
+          "doi": "10.48350/174733",
+          "titles": [
+            {
+              "title": "Modelling post-earthquake cascading hazards: Changing patterns of landslide runout following the 2015 Gorkha earthquake, Nepal"
+            }
+          ],
+          "publicationYear": 2022,
+          "publisher": "University of Bern",
+          "url": "https://boris-portal.unibe.ch/entities/publication/14a8649e-f024-4114-bbc5-f1ed57c9bdda",
+          "descriptions": [
+            {
+              "descriptionType": "Abstract",
+              "description": "Coseismic landslides represent the first stage of a broader cascading sequence of geohazards associated with high-magnitude continental earthquakes, with the subsequent remobilization of coseismic landslide debris posing a long-term post-seismic legacy in mountain regions. Here, we quantify the controls on the hazard posed by landslide remobilization and debris runout, and compare the overlap between areas at risk of runout and the pattern of post-seismic landslides and debris flows that actually occurred. Focusing on the 2015 Mw 7.8 Gorkha earthquake in Nepal, we show that the extent of the area that could be affected by debris runout remained elevated above coseismic levels 4.5 years after the event. While 150 km2 (0.6% of the study area) was directly impacted by landslides in the earthquake, an additional 614 km2 (2.5%) was left at risk from debris runout, increasing to 777 km2 (3.2%) after the 2019 monsoon. We evaluate how this area evolved by comparing modelled predictions of runout from coseismic landslides to multi-temporal post-seismic landslide inventories, and find that 14% (85 km2) of the total modelled potential runout area experienced landslide activity within 4.5 years after the earthquake. This value increases to 32% when modelled runout probability is thresholded, equivalent to 10 km2 of realized runout from a remaining modelled area of 32 km2. Although the proportion of the modelled runout area from coseismic landslides that remains a hazard has decreased through time, the overall runout susceptibility for the study area remains high. This indicates that runout potential is changing both spatially and temporally as a result of changes to the landslide distribution after the earthquake. These findings are particularly important for understanding evolving patterns of cascading hazards following large earthquakes, which is crucial for guiding decision-making associated with post-seismic recovery and reconstruction."
+            }
+          ],
+          "rightsList": [
+            {
+              "rightsUri": "http://purl.org/coar/access_right/c_abf2",
+              "rights": "open.access"
+            }
+          ]
+        },
+        {
+          "doi": "10.5281/zenodo.17546955",
+          "titles": [
+            {
+              "title": "Data for \"Coarsening of fluvial sediments after the Gorkha Earthquake 2015, Nepal.\""
+            }
+          ],
+          "publicationYear": 2025,
+          "publisher": "Zenodo",
+          "url": "https://zenodo.org/doi/10.5281/zenodo.17546955",
+          "descriptions": [
+            {
+              "descriptionType": "Abstract",
+              "description": "The data are supplementary material to:David Puhl, Jens M. Turowski, Christoff Andermann, Michael Dietze, Kristen L. Cook, Gen Li, Basanta R.Adhikari (2026), Coarsening of fluvial sediments after the Gorkha Earthquake 2015, Nepal, Earth Surface Dynamics, DOI to be added\n\n \n\nSampling Method:\n\nThe samples were collected from the surface of sediment sources during two field campaigns in the Bhotekoshi catchment in 2016 and 2018. Samples from 2016 were sieved in the field down to 600 µm.  \n\n \n\nAnalytical procedure:\n\nSamples were filtered onsite through a 0.22 µm PES filter using a head pressure filtration chamber. Each sample is composed of 6 sequential 500ml water samples that were combined before filtering. Samples were rinsed off the filter paper at the GFZ Sedimentary Laboratory SedLab and oven dried by 40°C and weighted. 40°C drying temperature was chosen to not degraded organic compounds contained in the suspended sediment load in order to preserve the sample for further analysis. Suspendedsediment concentration was derived by dividing the bulk weight with the 3 liters sample volume. The samples were analyzed for grainsize distribution by laser diffraction, requiring <1g of a representative sample aliquot. The aliquots were treated with 10% H2O2 for oxidation of organic materials and 10% HCl for 48 hours to remove the calcium carbonate fraction. Thus, only the pure mineral composition of the sample was analyzed. Prior to measurement the sample material was dispersed with sodiumpyrophosphate for 24 h and placed in an ultrasonic bath for 15 minutes. Grain size measurements were conducted by laser diffraction using a Horiba-Retsch Laser Particle Size Analyzer LA-950. This machine measures in a range from 0.011 μm to 2500 μm over 92 classes. To prevent coalescence of grains samples were again treated by ultrasonic excitation within the analytical device for 10 seconds directly before each measurement. Measurements were repeated 10 times with each 2000 sensor acquisitions. The diffraction measures were evaluated using a Mie scatter model (refraction index: 1.55 and absorption index: 1.33).\n\n \n\nData processing:\n\nThe laser diffraction measures were evaluated using a Mie scatter model (refraction index: 1.55 and absorption index: 1.33). The 10 repeat measurements were totaled for mean and median values. \n\n \n\nFile description:\n\nlandslide_2016.csv\n\nColumn 1: sample name\n\nColumn 2-93: Grain size classes from 0.011 to 2500 µm\n\nColumn 94-96: location\n\nColumn 98: Mineralogy\n\n \n\ngrainsize_sample 2018.csv\n\nColumn 1: sample name\n\nColumn 2-93: Grain size classes from 0.011 to 2500 µm\n\nColumn 94: checkplace*\n\nColumn 95-96: location\n\nColumn 97: Mineralogy\n\n* The column \"checkplace\" indicates \"f\" for fluvial deposits, \"d\" for debris flow deposits, and \"l\" for landslide deposits.\n\n "
+            }
+          ],
+          "rightsList": [
+            {
+              "rightsIdentifierScheme": "SPDX",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsIdentifier": "cc-by-4.0"
+            }
+          ]
+        },
+        {
+          "doi": "10.5281/zenodo.17546956",
+          "titles": [
+            {
+              "title": "Data for \"Coarsening of fluvial sediments after the Gorkha Earthquake 2015, Nepal.\""
+            }
+          ],
+          "publicationYear": 2025,
+          "publisher": "Zenodo",
+          "url": "https://zenodo.org/doi/10.5281/zenodo.17546956",
+          "descriptions": [
+            {
+              "descriptionType": "Abstract",
+              "description": "The data are supplementary material to:David Puhl, Jens M. Turowski, Christoff Andermann, Michael Dietze, Kristen L. Cook, Gen Li, Basanta R.Adhikari (2026), Coarsening of fluvial sediments after the Gorkha Earthquake 2015, Nepal, Earth Surface Dynamics, DOI to be added\n\n \n\nSampling Method:\n\nThe samples were collected from the surface of sediment sources during two field campaigns in the Bhotekoshi catchment in 2016 and 2018. Samples from 2016 were sieved in the field down to 600 µm.  \n\n \n\nAnalytical procedure:\n\nSamples were filtered onsite through a 0.22 µm PES filter using a head pressure filtration chamber. Each sample is composed of 6 sequential 500ml water samples that were combined before filtering. Samples were rinsed off the filter paper at the GFZ Sedimentary Laboratory SedLab and oven dried by 40°C and weighted. 40°C drying temperature was chosen to not degraded organic compounds contained in the suspended sediment load in order to preserve the sample for further analysis. Suspendedsediment concentration was derived by dividing the bulk weight with the 3 liters sample volume. The samples were analyzed for grainsize distribution by laser diffraction, requiring <1g of a representative sample aliquot. The aliquots were treated with 10% H2O2 for oxidation of organic materials and 10% HCl for 48 hours to remove the calcium carbonate fraction. Thus, only the pure mineral composition of the sample was analyzed. Prior to measurement the sample material was dispersed with sodiumpyrophosphate for 24 h and placed in an ultrasonic bath for 15 minutes. Grain size measurements were conducted by laser diffraction using a Horiba-Retsch Laser Particle Size Analyzer LA-950. This machine measures in a range from 0.011 μm to 2500 μm over 92 classes. To prevent coalescence of grains samples were again treated by ultrasonic excitation within the analytical device for 10 seconds directly before each measurement. Measurements were repeated 10 times with each 2000 sensor acquisitions. The diffraction measures were evaluated using a Mie scatter model (refraction index: 1.55 and absorption index: 1.33).\n\n \n\nData processing:\n\nThe laser diffraction measures were evaluated using a Mie scatter model (refraction index: 1.55 and absorption index: 1.33). The 10 repeat measurements were totaled for mean and median values. \n\n \n\nFile description:\n\nlandslide_2016.csv\n\nColumn 1: sample name\n\nColumn 2-93: Grain size classes from 0.011 to 2500 µm\n\nColumn 94-96: location\n\nColumn 98: Mineralogy\n\n \n\ngrainsize_sample 2018.csv\n\nColumn 1: sample name\n\nColumn 2-93: Grain size classes from 0.011 to 2500 µm\n\nColumn 94: checkplace*\n\nColumn 95-96: location\n\nColumn 97: Mineralogy\n\n* The column \"checkplace\" indicates \"f\" for fluvial deposits, \"d\" for debris flow deposits, and \"l\" for landslide deposits.\n\n "
+            }
+          ],
+          "rightsList": [
+            {
+              "rightsIdentifierScheme": "SPDX",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsIdentifier": "cc-by-4.0"
+            }
+          ]
+        },
+        {
+          "doi": "10.26190/unsworks/25259",
+          "titles": [
+            {
+              "title": "Assessment of earthquake-triggered landslides in Central Nepal"
+            }
+          ],
+          "publicationYear": 2023,
+          "publisher": "UNSW Sydney",
+          "url": "http://hdl.handle.net/1959.4/101552",
+          "descriptions": [
+            {
+              "descriptionType": "Abstract",
+              "description": "Landslides are recurrent in Nepal due to active tectonics, high precipitation, complex topography, geology, and land use practices. Reliable landslide susceptibility maps are crucial for effective disaster management. Ongoing research has improved landslide mapping approaches, while further efforts are needed to assess inventories and enhance susceptibility mapping methods. This thesis aims to evaluate the landslides caused by the Gorkha earthquake in 2015 and develop reliable landslide susceptibility maps using statistical and geospatial techniques. There are four main objectives: (i) proposing clustering-based sampling strategies to increase the efficiency of landslide susceptibility maps over random selection methods, (ii) identifying and delineating effective landslide mapping units, (iii) proposing an innovative framework for comparing inventories and their corresponding susceptibility maps, and (iv) implementing a methodology for landslide-specific susceptibility mapping. Firstly, a comprehensive Gorkha earthquake-induced landslide inventory was initially compiled, and six unsupervised clustering algorithms were employed to generate six distinct training datasets. An additional training dataset was also prepared using a randomised approach. Among the tested algorithms, the Expectation Maximization using the Gaussian Mixture Model (EM/GMM) demonstrated the highest accuracy, confirming the importance of prioritising clustering patterns for training landslide inventory datasets. Secondly, slope units were introduced as an effective mapping unit for assessing landslides, delineating 112,674 slope unit polygons over an approximately 43,000 km2 area in Central Nepal. This is the first instance of generating such comprehensive mapping and making it publicly accessible. Thirdly, a comparison of five post-Gorkha earthquake inventories and susceptibility was conducted, revealing similarities in causative factors and map performance but variations in spatial patterns. Lastly, a rockfall inventory along two significant highways was developed as a landslide-classified inventory, and the rockfall susceptibility was evaluated. A segment-wise map with a 1 to 5 scale indicating low to high susceptibility was published for public use. This thesis proposes new approaches to landslide inventory sampling and earthquake-triggered landslide assessment. It provides publicly accessible databases for Central Nepal's slope unit map and rockfall susceptibility along the major highways. These findings can benefit researchers, planners, and policymakers to enhance risk management practices by advancing landslide assessment, particularly for earthquake-induced landslides in Central Nepal."
+            }
+          ],
+          "rightsList": [
+            {
+              "rightsIdentifierScheme": "SPDX",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsIdentifier": "cc-by-4.0"
+            }
+          ]
+        },
+        {
+          "doi": "10.7488/era/6841",
+          "titles": [
+            {
+              "lang": "en",
+              "title": "Coherent disaggregation and uncertainty quantification for spatially misaligned data"
+            }
+          ],
+          "publicationYear": 2026,
+          "publisher": "The University of Edinburgh",
+          "url": "https://era.ed.ac.uk/handle/1842/44321",
+          "descriptions": [
+            {
+              "descriptionType": "Abstract",
+              "description": "This thesis addresses the challenge of spatial misalignment in spatial models defined over continuous domains, with a particular emphasis on quantifying uncertainty that arises from data disaggregation. A central methodological contribution is the extension of nonlinear predictors within the Integrated Nested Laplace Approximation (INLA) framework. This is achieved by formulating INLA as a Bayesian optimisation procedure applied in an iterative manner, where linearisation points are evaluated using an appropriate metric until a convergence criterion is satisfied. We provide theoretical guarantees showing that the approximation error resulting from the linearisation of the nonlinearity arising due to spatial misalignment is bounded by terms of higher order, provided that the linearisation points are sufficiently localised. The proposed approach effectively captures the nonlinearity induced by spatial misalignment and accurately recovers the underlying intensity fields for both aggregated count data and point pattern observations, whether represented in raster or areal format. The methodology is further extended to account for partially observed data, a common feature of aggregated datasets. Simulation studies demonstrate that including uncertainty terms in both joint and two stage modelling frameworks leads to substantial improvements in predictive accuracy and inferential reliability, as measured by proper scoring rules. The methodology is applied to a large-scale landslide inventory triggered by the 2015 Mᵥᵥ 7.8 Gorkha Earthquake in Nepal. A novel application is the use of pixel-based geomorphological covariates, notably the slope steepness metric, Channel Steepness Index (kₛₙ), derived objectively from remotely sensed Digital Elevation Model (DEM) data. Compared to traditional slope unit polygon approaches, this pixel-based method is computationally efficient and more objective. Model comparisons using strictly proper scoring rules identify kₛₙ as a key triggering factor, outperforming conventional covariates such as land cover and Peak Ground Acceleration (PGA). Additionally, flow distance to the nearest channel is found to better predict landslide size and location than sheer relief to channel. Covariate influence is quantified using the Coefficient of Variation (cᵥ), providing interpretable measures of relative spatial variability. Collectively, this thesis advances continuous spatial modelling by developing tools that explicitly address spatial misalignment and incorporate uncertainty quantification. These contributions enhance predictive accuracy and interpretability in geoscientific applications, with broad implications for environmental risk assessment and hazard modelling.",
+              "lang": ""
+            }
+          ],
+          "rightsList": []
+        }
+      ]
+    },
+    {
+      "name": "RFC4202 shared risk definition",
+      "url": "https://www.rfc-editor.org/rfc/rfc4202.txt",
+      "status": 200,
+      "data": [
+        "  1.2.  Excluding Data Traffic from Control Channels. . . . . .   6\n   2.  GMPLS Routing Enhancements. . . . . . . . . . . . . . . . . .   7\n       2.1.  Support for Unnumbered Links. . . . . . . . . . . . . .   7\n       2.2.  Link Protection Type. . . . . . . . . . . . . . . . . .   7\n       2.3.  Shared Risk Link Group Information. . . . . . . . . . .   9\n       2.4.  Interface Switching Capability Descriptor . . . . . . .   9\n             2.4.1.  Layer-2 Switch Capable. . . . . . . . . . . . .  11\n             2.4.2.  Packet-Switch Capable . . . . . . . . . . . . .  11\n             2.4.3.  Time-Division Multiplex Capable . . . . . . . .  12\n             2.4.4.  Lambda-Switch Capable . . . . . . . . . . . . .  13\n             2.4.5.  Fiber-Switch Capable. . . . . . . . . . . . . .  13\n             2.4.6.  Multiple Switching Capabilities per Interface .  13\n             2.4.7.  Interface Switching Capabilities and Labels . .  14\n             2.4.8.  Other Issues. . . . . . . . . . . . . . . . . .  14\n       2.5.  Bandwidth Encoding. . . . . . . . . . . . . . . . . . .  15\n   3.  Examples of Interface Switching Capability Descriptor . . . .  15\n       3.1.  STM-16 POS Interface on a LSR . . . . . . . . . . . . .  15\n       3.2.  GigE Packet Interface on a LSR. . . . . . . . . . . . .  15\n       3.3.  STM-64 SDH Interface on a Digital Cross Connect with\n             Standard SDH. . . . . . . . . . . . . . . . . . . . . .  15\n       3.4.  STM-64 SDH Interface on a Digital Cross Connect with\n             Two Types of SDH Multiplexing Hierarchy Supported . . .  16\n       3.5.  Interface on an Opaque OXC (SDH Framed) with Support\n             for One Lambda per Port/Interface . . . . . . . . . . .  16\n       3.6.  Interface on a Transparent OXC (PXC) with External\n             DWDM that understands SDH framing . . . . . . . . . . .  17\n       3.7.  Interface on a Transparent OXC (PXC) with External\n             DWDM That Is Transparent to Bit-Rate and Framing. . . .  17\n       3.8.  Interface on a PXC with No External DWDM. . . . . . . .  18\n       3.9.  Interface on a OXC with Internal DWDM That Understands\n             SDH Framing . . . . . . . . . . . . . . . . . . . . . .  18\n       3.10. Interface on a OXC with Internal DWDM That Is\n             Transparent to",
+        "pe is optional, and if a Link State\n      Advertisement doesn't carry this information, then the Link\n      Protection Type is unknown.\n\n\n\n\n\n\n\n\nKompella & Rekhter          Standards Track                     [Page 8]\n\f\nRFC 4202              Routing Extensions for GMPLS          October 2005\n\n\n2.3.  Shared Risk Link Group Information\n\n   A set of links may constitute a 'shared risk link group' (SRLG) if\n   they share a resource whose failure may affect all links in the set.\n   For example, two fibers in the same conduit would be in the same\n   SRLG.  A link may belong to multiple SRLGs.  Thus the SRLG\n   Information describes a list of SRLGs that the link belongs to.  An\n   SRLG is identified by a 32 bit number that is unique within an IGP\n   domain.  The SRLG Information is an unordered list of SRLGs that the\n   link belongs to.\n\n   The SRLG of a LSP is the union of the SRLGs of the links in the LSP.\n   The SRLG of a bundled link is the union of the SRLGs of all the\n   component links.\n\n   If an LSR is required to have multiple diversely routed LSPs to\n   another LSR, the path computation should attempt to route the paths\n   so that they do not have any links in common, and such that the path\n   SRLGs are disjoint.\n\n   The SRLG Information may start with a configured value, in which case\n   it does not change over time, unless reconfigured.\n\n   The SRLG Information is optional and if a Link State Advertisement\n   doesn't carry the SRLG Information, then it means that SRLG of that\n   link is unknown.\n\n2.4.  Interface Switching Capability Descriptor\n\n   In the context of this document we say that a link is connected to a\n   node by an interface.  In the context of GMPLS interfaces may have\n   different switching capabilities.  For example an interface that\n   connects a given link to a node may not be able to switch individual\n   packets, but it may be able to switch channels within an SDH payload.\n   Interfaces at each end of a link need not have the same switching\n   capabilities.  Interfaces on the same node need not have the same\n   switching capabilities.\n\n   The Interface Switching Capability Descriptor describes switching\n   capability of an interface.  For bi-directional links, the switching\n   capabilities of an interface are defined to be the same in e",
+        "is information, then the Link\n      Protection Type is unknown.\n\n\n\n\n\n\n\n\nKompella & Rekhter          Standards Track                     [Page 8]\n\f\nRFC 4202              Routing Extensions for GMPLS          October 2005\n\n\n2.3.  Shared Risk Link Group Information\n\n   A set of links may constitute a 'shared risk link group' (SRLG) if\n   they share a resource whose failure may affect all links in the set.\n   For example, two fibers in the same conduit would be in the same\n   SRLG.  A link may belong to multiple SRLGs.  Thus the SRLG\n   Information describes a list of SRLGs that the link belongs to.  An\n   SRLG is identified by a 32 bit number that is unique within an IGP\n   domain.  The SRLG Information is an unordered list of SRLGs that the\n   link belongs to.\n\n   The SRLG of a LSP is the union of the SRLGs of the links in the LSP.\n   The SRLG of a bundled link is the union of the SRLGs of all the\n   component links.\n\n   If an LSR is required to have multiple diversely routed LSPs to\n   another LSR, the path computation should attempt to route the paths\n   so that they do not have any links in common, and such that the path\n   SRLGs are disjoint.\n\n   The SRLG Information may start with a configured value, in which case\n   it does not change over time, unless reconfigured.\n\n   The SRLG Information is optional and if a Link State Advertisement\n   doesn't carry the SRLG Information, then it means that SRLG of that\n   link is unknown.\n\n2.4.  Interface Switching Capability Descriptor\n\n   In the context of this document we say that a link is connected to a\n   node by an interface.  In the context of GMPLS interfaces may have\n   different switching capabilities.  For example an interface that\n   connects a given link to a node may not be able to switch individual\n   packets, but it may be able to switch channels within an SDH payload.\n   Interfaces at each end of a link need not have the same switching\n   capabilities.  Interfaces on the same node need not have the same\n   switching capabilities.\n\n   The Interface Switching Capability Descriptor describes switching\n   capability of an interface.  For bi-directional links, the switching\n   capabilities of an interface are defined to be the same in either\n   direction.  I.e., for data entering the node through that inter"
+      ]
+    }
+  ],
+  "targeted_sources": [
+    {
+      "name": "USGS ground-failure repository",
+      "url": "https://www.usgs.gov/data/open-repository-earthquake-triggered-ground-failure-inventories",
+      "status": 200,
+      "data": {
+        "description_excerpt": "An Open Repository of Earthquake-Triggered Ground-Failure Inventories October 12, 2017 View Data Release Earthquake-triggered ground-failure, such as landsliding and liquefaction, can contribute significantly to losses, but our current ability to accurately include them in earthquake hazard analyses is limited. The development of robust and transportable models requires access to numerous inventories of ground failure triggered by earthquakes that span a broad range of terrains, shaking characteristics, and climates. We present an openly accessible, centralized earthquake-triggered ground-failure inventory repository in the form of a ScienceBase Community to provide open access to these data, and help accelerate progress. The Community hosts digital inventories created by both USGS and non-USGS authors. We present the original digital inventory files (when available) as well as an integrated database with uniform attributes. We also summarize the mapping methodology and level of completeness as reported by the original authors for each inventory. Citation Information Publication Year 2017 Title An Open Repository of Earthquake-Triggered Ground-Failure Inventories DOI 10.5066/F7H70DB4 Authors Robert G Schmitt, Hakan Tanyas, Anna Nowicki Jessee, Jing Zhu, Katherine M Biegel, Kate E Allstadt, Randall W Jibson, Eric M Thompson, Cees J. Van Westen, Hiroshi P. Sato, David J Wald, Jonathan W Godt, Tolga Gorum, Chong Xu, Ellen Rathje, Keith L Knudsen Product Type Data Release Record Source USGS Asset Identifier Service (AIS) USGS Organization Earthquake Hazards Program Rights This work is marked with CC0 1.0 Universal ",
+        "links": [
+          "https://doi.org/10.5066/F7H70DB4",
+          "https://doi.org/10.5066/F7H70DB4"
+        ]
+      }
+    },
+    {
+      "name": "Gorkha cascading hazards paper metadata",
+      "url": "https://api.crossref.org/works?query.bibliographic=Modelling+post-earthquake+cascading+hazards+Changing+patterns+of+landslide+runout+following+the+2015+Gorkha+earthquake+Nepal&rows=2&select=title%2CDOI%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Clink",
+      "status": 200,
+      "data": [
+        {
+          "title": [
+            "Modelling post‐earthquake cascading hazards: Changing patterns of landslide runout following the 2015 Gorkha earthquake, Nepal"
+          ],
+          "DOI": "10.1002/esp.5501",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9632-4223",
+              "authenticated-orcid": false,
+              "given": "Mark E.",
+              "family": "Kincey",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Institute of Hazard, Risk, and Resilience and Department of Geography Durham University  Durham UK"
+                },
+                {
+                  "name": "School of Geography, Politics and Sociology Newcastle University  Newcastle upon Tyne UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Nick J.",
+              "family": "Rosser",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Hazard, Risk, and Resilience and Department of Geography Durham University  Durham UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alexander L.",
+              "family": "Densmore",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Hazard, Risk, and Resilience and Department of Geography Durham University  Durham UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tom R.",
+              "family": "Robinson",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Earth and Environment University of Canterbury  Christchurch New Zealand"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ram",
+              "family": "Shrestha",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National Society for Earthquake Technology‐Nepal  Kathmandu Nepal"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dammar",
+              "family": "Singh Pujara",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National Society for Earthquake Technology‐Nepal  Kathmandu Nepal"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Pascal",
+              "family": "Horton",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Terranum Sàrl  Bussigny Switzerland"
+                },
+                {
+                  "name": "Institute of Geography &amp; Oeschger Centre for Climate Change Research University of Bern  Bern Switzerland"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3592-9739",
+              "authenticated-orcid": false,
+              "given": "Zuzanna M.",
+              "family": "Swirad",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Hazard, Risk, and Resilience and Department of Geography Durham University  Durham UK"
+                },
+                {
+                  "name": "Institute of Geophysics Polish Academy of Sciences  Warsaw Poland"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Katie J.",
+              "family": "Oven",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Geography and Environmental Sciences Northumbria University  Newcastle‐Upon‐Tyne UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Katherine",
+              "family": "Arrell",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Hazard, Risk, and Resilience and Department of Geography Durham University  Durham UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ]
+          },
+          "container-title": [
+            "Earth Surface Processes and Landforms"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Coseismic landslides represent the first stage of a broader cascading sequence of geohazards associated with high‐magnitude continental earthquakes, with the subsequent remobilization of coseismic landslide debris posing a long‐term post‐seismic legacy in mountain regions. Here, we quantify the controls on the hazard posed by landslide remobilization and debris runout, and compare the overlap between areas at risk of runout and the pattern of post‐seismic landslides and debris flows that actually occurred. Focusing on the 2015\n                    <jats:italic>M</jats:italic>\n                    <jats:sub>w</jats:sub>\n                    7.8 Gorkha earthquake in Nepal, we show that the extent of the area that could be affected by debris runout remained elevated above coseismic levels 4.5 years after the event. While 150 km\n                    <jats:sup>2</jats:sup>\n                    (0.6% of the study area) was directly impacted by landslides in the earthquake, an additional 614 km\n                    <jats:sup>2</jats:sup>\n                    (2.5%) was left at risk from debris runout, increasing to 777 km\n                    <jats:sup>2</jats:sup>\n                    (3.2%) after the 2019 monsoon. We evaluate how this area evolved by comparing modelled predictions of runout from coseismic landslides to multi‐temporal post‐seismic landslide inventories, and find that 14% (85 km\n                    <jats:sup>2</jats:sup>\n                    ) of the total modelled potential runout area experienced landslide activity within 4.5 years after the earthquake. This value increases to 32% when modelled runout probability is thresholded, equivalent to 10 km\n                    <jats:sup>2</jats:sup>\n                    of realized runout from a remaining modelled area of 32 km\n                    <jats:sup>2</jats:sup>\n                    . Although the proportion of the modelled runout area from coseismic landslides that remains a hazard has decreased through time, the overall runout susceptibility for the study area remains high. This indicates that runout potential is changing both spatially and temporally as a result of changes to the landslide distribution after the earthquake. These findings are particularly important for understanding evolving patterns of cascading hazards following large earthquakes, which is crucial for guiding decision‐making associated with post‐seismic recovery and reconstruction.\n                  </jats:p>",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.5501",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/esp.5501",
+              "content-type": "application/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.5501",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        },
+        {
+          "title": [
+            "M5.3 earthquake in Nepal triggers landslide and building damage"
+          ],
+          "DOI": "10.62481/3a339365",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9980-1654",
+              "authenticated-orcid": true,
+              "given": "Judith",
+              "family": "Hubbard",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Earthquake Insights",
+                  "place": [
+                    "Ithaca, NY, USA"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6277-6363",
+              "authenticated-orcid": true,
+              "given": "Kyle",
+              "family": "Bradley",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Earthquake Insights",
+                  "place": [
+                    "Ithaca, NY, USA"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                22
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "priority_paper_metadata_and_abstracts": [
+    {
+      "name": "Neumayer-Modiano 2010",
+      "source": "https://api.openalex.org/works/https://doi.org/10.1109/infcom.2010.5461984",
+      "title": "Network Reliability With Geographically Correlated Failures",
+      "doi": "https://doi.org/10.1109/infcom.2010.5461984",
+      "year": 2010,
+      "abstract": "Fiber-optic networks are vulnerable to natural disasters, such as tornadoes or earthquakes, as well as to physical failures, such as an anchor cutting underwater fiber cables. Such real-world events occur in specific geographical locations and disrupt specific parts of the network. Therefore, the geography of the network determines the effect of physical events on the network's connectivity and capacity. In this paper, we develop tools to analyze network failures after a `random' geographic disaster. The random location of the disaster allows us to model situations where the physical failures are not targeted attacks. In particular, we consider disasters that take the form of a `random' line in a plane. Using results from geometric probability, we are able to calculate some network performance metrics to such a disaster in polynomial time. In particular, we can evaluate average two-terminal reliability in polynomial time under `random' line-cuts. This is in contrast to the case of independent link failures for which there exists no known polynomial time algorithm to calculate this reliability metric. We also present some numerical results to show the significance of geometry on the survivability of the network and discuss network design in the context of random line-cuts. Our novel approach provides a promising new direction for modeling and designing networks to lessen the effects of geographical disasters or attacks.",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://hdl.handle.net/1721.1/62184",
+        "any_repository_has_fulltext": true
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1109/infcom.2010.5461984",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.181.1192",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.667.1711",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "http://hdl.handle.net/1721.1/62184",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        }
+      ]
+    },
+    {
+      "name": "Availability-Aware Routing 2026",
+      "source": "https://api.openalex.org/works/https://doi.org/10.1109/infocom59046.2026.11571439",
+      "title": "Availability-Aware Routing in Presence of Geographically Correlated Failures",
+      "doi": "https://doi.org/10.1109/infocom59046.2026.11571439",
+      "year": 2026,
+      "abstract": "",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1109/infocom59046.2026.11571439",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "publishedVersion"
+        }
+      ]
+    },
+    {
+      "name": "SRRG routing 2008",
+      "source": "https://api.openalex.org/works/https://doi.org/10.1016/j.comnet.2008.04.017",
+      "title": "Graph transformation approaches for diverse routing in shared risk resource group (SRRG) failures",
+      "doi": "https://doi.org/10.1016/j.comnet.2008.04.017",
+      "year": 2008,
+      "abstract": "",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1294&context=ece_pubs",
+        "any_repository_has_fulltext": true
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.comnet.2008.04.017",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "publishedVersion"
+        },
+        {
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.503.2290",
+          "pdf_url": null,
+          "is_oa": false,
+          "version": "submittedVersion"
+        },
+        {
+          "landing_page_url": "https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1294&context=ece_pubs",
+          "pdf_url": null,
+          "is_oa": true,
+          "version": "submittedVersion"
+        }
+      ]
+    }
+  ],
+  "crossref_searches_unscreened": [
+    {
+      "query": "shared risk link group diverse routing geographic failures",
+      "url": "https://api.crossref.org/works?query=shared+risk+link+group+diverse+routing+geographic+failures&rows=6&select=title%2CDOI%2Cpublished%2Ccontainer-title%2Cauthor%2Cabstract%2Ctype",
+      "works": [
+        {
+          "title": [
+            "Diverse routing in WDM optical networks with shared risk link group (SRLG) failures"
+          ],
+          "doi": "10.1109/drcn.2005.1563905",
+          "year": null,
+          "venue": [
+            "DRCN 2005). Proceedings.5th International Workshop on Design of Reliable Communication Networks, 2005."
+          ],
+          "authors": [
+            "Xubin Luo",
+            "Bin Wang"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Graph transformation approaches for diverse routing in shared risk resource group (SRRG) failures"
+          ],
+          "doi": "10.1016/j.comnet.2008.04.017",
+          "year": [
+            [
+              2008,
+              8
+            ]
+          ],
+          "venue": [
+            "Computer Networks"
+          ],
+          "authors": [
+            "Datta",
+            "Somani"
+          ],
+          "abstract": "",
+          "type": "journal-article"
+        },
+        {
+          "title": [
+            "Diverse routing for shared risk resource groups (SRRG) failures in WDM optical networks"
+          ],
+          "doi": "10.1109/broadnets.2004.34",
+          "year": null,
+          "venue": [
+            "First International Conference on Broadband Networks"
+          ],
+          "authors": [
+            "Datta",
+            "Somani"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Sub-graph routing : a novel fault-tolerant architecture for shared-risk link group failures in wdm optical networks"
+          ],
+          "doi": "10.1109/drcn.2003.1275369",
+          "year": null,
+          "venue": [
+            "Fourth International Workshop on Design of Reliable Communication Networks, 2003. (DRCN 2003). Proceedings."
+          ],
+          "authors": [
+            "Datta",
+            "Frederick",
+            "Somani"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Algorithms for the diverse routing problem in WDM networks with shared risk link groups"
+          ],
+          "doi": "10.1109/iccs.2004.1359403",
+          "year": null,
+          "venue": [
+            "The Ninth International Conference onCommunications Systems, 2004. ICCS 2004."
+          ],
+          "authors": [
+            "Xiaoshan Pan",
+            "Gaoxi Xiao"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Diverse routing based on shared risk link groups"
+          ],
+          "doi": "10.1109/drcn.2009.5340011",
+          "year": [
+            [
+              2009,
+              10
+            ]
+          ],
+          "venue": [
+            "2009 7th International Workshop on Design of Reliable Communication Networks"
+          ],
+          "authors": [
+            "Kiese",
+            "Marcheva",
+            "Eberspacher",
+            "Schupke"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        }
+      ]
+    },
+    {
+      "query": "spatially correlated failures reliable alternative routes road disaster",
+      "url": "https://api.crossref.org/works?query=spatially+correlated+failures+reliable+alternative+routes+road+disaster&rows=6&select=title%2CDOI%2Cpublished%2Ccontainer-title%2Cauthor%2Cabstract%2Ctype",
+      "works": [
+        {
+          "title": [
+            "A Network Planning and Management Tool for mitigating the impact of spatially correlated failures in infrastructure networks"
+          ],
+          "doi": "10.1109/drcn.2016.7470837",
+          "year": [
+            [
+              2016,
+              3
+            ]
+          ],
+          "venue": [
+            "2016 12th International Conference on the Design of Reliable Communication Networks (DRCN)"
+          ],
+          "authors": [
+            "Das",
+            "Sen",
+            "Chunming Qiao",
+            "Ghani",
+            "Mitton"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Reliable space–time prisms in the stochastic road networks under spatially correlated travel times"
+          ],
+          "doi": "10.1080/21680566.2020.1764411",
+          "year": [
+            [
+              2020,
+              1,
+              2
+            ]
+          ],
+          "venue": [
+            "Transportmetrica B: Transport Dynamics"
+          ],
+          "authors": [
+            "Sahebgharani",
+            "Haghshenas",
+            "Mohammadi"
+          ],
+          "abstract": "",
+          "type": "journal-article"
+        },
+        {
+          "title": [
+            "Reliable path provisioning in the presence of multiple correlated failures"
+          ],
+          "doi": "10.1109/sarnof.2016.7846727",
+          "year": [
+            [
+              2016,
+              9
+            ]
+          ],
+          "venue": [
+            "2016 IEEE 37th Sarnoff Symposium"
+          ],
+          "authors": [
+            "General",
+            "Pezoa"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Road blocks and alternative routes"
+          ],
+          "doi": "10.4324/9781315175232-7",
+          "year": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ],
+          "venue": [
+            "Introducing Emotional Freedom Techniques"
+          ],
+          "authors": [
+            "Moran"
+          ],
+          "abstract": "",
+          "type": "book-chapter"
+        },
+        {
+          "title": [
+            "A measurement allocation scheme for reliable data gathering in spatially correlated sensor networks"
+          ],
+          "doi": "10.1109/glocomw.2010.5700232",
+          "year": [
+            [
+              2010,
+              12
+            ]
+          ],
+          "venue": [
+            "2010 IEEE Globecom Workshops"
+          ],
+          "authors": [
+            "Byun",
+            "Balasingham"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Introspective failure analysis: avoiding correlated failures in peer-to-peer systems"
+          ],
+          "doi": "10.1109/reldis.2002.1180211",
+          "year": null,
+          "venue": [
+            "21st IEEE Symposium on Reliable Distributed Systems, 2002. Proceedings."
+          ],
+          "authors": [
+            "Weatherspoon",
+            "Moscovitz",
+            "Kubiatowicz"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        }
+      ]
+    },
+    {
+      "query": "disaster risk aware alternative paths landslide road network",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "query": "geographically correlated failures diverse paths routing",
+      "url": "https://api.crossref.org/works?query=geographically+correlated+failures+diverse+paths+routing&rows=6&select=title%2CDOI%2Cpublished%2Ccontainer-title%2Cauthor%2Cabstract%2Ctype",
+      "works": [
+        {
+          "title": [
+            "Using Multi-Topology Routing to improve routing during geographically correlated failures"
+          ],
+          "doi": "10.1109/drcn.2014.6816134",
+          "year": [
+            [
+              2014,
+              4
+            ]
+          ],
+          "venue": [
+            "2014 10th International Conference on the Design of Reliable Communication Networks (DRCN)"
+          ],
+          "authors": [
+            "Gardner",
+            "May",
+            "Beard",
+            "Medhi"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Availability-Aware Routing in Presence of Geographically Correlated Failures"
+          ],
+          "doi": "10.1109/infocom59046.2026.11571439",
+          "year": [
+            [
+              2026,
+              5,
+              18
+            ]
+          ],
+          "venue": [
+            "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications"
+          ],
+          "authors": [
+            "Vass",
+            "Birszki",
+            "Bérczi-Kovács",
+            "Babarczi",
+            "Gyimesi",
+            "Tapolcai"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Survivable Routing in Multi-Domain Optical Networks with Geographically Correlated Failures"
+          ],
+          "doi": "10.1109/glocom.2017.8254775",
+          "year": [
+            [
+              2017,
+              12
+            ]
+          ],
+          "venue": [
+            "GLOBECOM 2017 - 2017 IEEE Global Communications Conference"
+          ],
+          "authors": [
+            "Gour",
+            "Kong",
+            "Ishigaki",
+            "Yousefpour",
+            "Hong",
+            "Jue"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Network Reliability With Geographically Correlated Failures"
+          ],
+          "doi": "10.1109/infcom.2010.5461984",
+          "year": [
+            [
+              2010,
+              3
+            ]
+          ],
+          "venue": [
+            "2010 Proceedings IEEE INFOCOM"
+          ],
+          "authors": [
+            "Neumayer",
+            "Modiano"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Diverse routing in multi-domain optical networks with correlated and probabilistic multi-failures"
+          ],
+          "doi": "10.1109/icc.2012.6364886",
+          "year": [
+            [
+              2012,
+              6
+            ]
+          ],
+          "venue": [
+            "2012 IEEE International Conference on Communications (ICC)"
+          ],
+          "authors": [
+            "Xu",
+            "Min-Allah",
+            "Khan",
+            "Ghani"
+          ],
+          "abstract": "",
+          "type": "proceedings-article"
+        },
+        {
+          "title": [
+            "Communication Network Reliability under geographically correlated failures using Probabilistic Seismic Hazard Analysis"
+          ],
+          "doi": "10.36227/techrxiv.20954647",
+          "year": [
+            [
+              2023,
+              2,
+              5
+            ]
+          ],
+          "venue": null,
+          "authors": [
+            "Barrera",
+            "Jiménez-Álvarez",
+            "Cancela"
+          ],
+          "abstract": " &lt;p&gt;The research community’s attention has been attracted to the reliability of networks exposed to large-scale disasters and this has become a critical concern in network studies during the last decade. Earthquakes are high on the list of those showing the most significant impacts on communication networks, and simultaneously, they are the least predictable events.  This study uses the Probabilistic Seismic Hazard Analysis method to estimate the network element state after an earthquake. The approach considers a seismic source model and ground prediction equations to assess the intensity measure for each element according to its location. In the simulation, nodes fail according to the building's fragility curves. Similarly, links fail according to a failure rate depending on the intensity measure and the cable's characteristics. We use the source-terminal, and the diameter constrained reliability metrics. The approach goes beyond the graph representation of the network and incorporates the terrain characteristics and the component's robustness into the network performance analysis at an affordable computational cost.  We study the method on a network in a seismic region with almost 9000 km of optical fiber. We observed that for source-terminal that are less than 500 km apart the improvements are marginals while for those that are more than 1000 km apart, reliability improves near a 30\\% in the enhanced designs. We also showed that these results depend heavily on the robustness/fragility of the infrastructure, showing that performance measures based only the network topology are not enough to evaluate new designs.&lt;/p&gt; ",
+          "type": "posted-content"
+        }
+      ]
+    },
+    {
+      "query": "postseismic landslide road accessibility Wenchuan Gorkha",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "limitations": [
+    "Search results contain false positives and are not a completed literature review.",
+    "OpenAlex reconstructed abstracts are metadata-supplied abstracts, not downloaded full texts.",
+    "No journal research paper full text or geospatial dataset was downloaded in this check.",
+    "The original verification_log.json retains first-setup observations as historical evidence."
+  ]
+}

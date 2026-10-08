@@ -43,10 +43,20 @@ DOI 或稳定链接：
 
 正文可按最相关章节分批提供；不能凭摘要认定细节已验证。若提供公开下载链接，随后仍需实际检查格式、时间信息及许可。
 
-## 当前访问状态与环境草稿
+## 首次设置时的访问状态与环境草稿
 
 - 已访问：NASA 与 NetworkX 的官方 GitHub 材料。
 - 返回代理 `403 Forbidden`：Crossref、OpenAlex、USGS 目标页、JAG/ISPRS 范围页面。
 - 其余网站是候选入口，尚未测试；不能写成已确认被阻断或已经可用。
 - 已保存自定义域名增补草稿：`api.crossref.org`、`api.openalex.org`、`doi.org`、`www.sciencedirect.com`、`www.usgs.gov`、`www.rfc-editor.org`。保留既有包管理器网络预设，未添加凭据要求。
 - 保存草稿不等于当前网络已开放。平台返回需要发布；如使用该途径，应在环境设置中审核并保存后发布，再检查实际访问。用户直接提供信息也能推动文献核查。
+
+## 本轮复查更新（2026-10-08）
+
+环境配置元数据现在显示 `unrestricted`。实际请求确认 Crossref、OpenAlex、RFC 与 NASA 可访问；USGS 程序页、搜索页和地表破坏清单库也可访问。旧 USGS 目标页返回 404，已找到[有效清单库入口](https://www.usgs.gov/data/open-repository-earthquake-triggered-ground-failure-inventories)。
+
+JAG 与 ISPRS 的上述范围页面仍返回代理 `403 Forbidden`。因此用户协助优先级调整为这两个期刊页面，以及元数据检索仍未提供正文的最接近论文；不再需要因首次访问失败而代查所有文献API或 USGS。配置显示开放不代表每个网站必然可达，暂不再要求增加相同域名。
+
+Crossref 并发查询曾出现 429 和一次 500；后续较低并发的定向检索成功。这属于本轮具体请求的限流/服务错误，不能归类为域名完全不可访问。
+
+详细状态与证据见[复查报告](network_recheck.md)及[新增访问记录](../references/access_recheck_2026-10-08.json)。此前的草稿说明保留为历史记录。

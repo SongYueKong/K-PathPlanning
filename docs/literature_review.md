@@ -1,6 +1,6 @@
 # 文献核查框架与已核实材料
 
-日期：2026-10-08。**这是检索方案与有限材料记录，不是完成的系统综述。** 当前没有读取最接近路线共同失效研究的论文正文，因此不能认定拟研究问题具有新颖性。
+日期：2026-10-08。**这是检索方案与有限材料记录，不是完成的系统综述。** 本轮已获取部分相关论文的元数据/摘要及 RFC 原文；当前没有读取最接近路线共同失效研究的论文正文，因此不能认定拟研究问题具有新颖性。
 
 ## 1. 已获得的可靠信息
 
@@ -68,7 +68,7 @@ postseismic rainfall landslide road blockage
 
 - Suurballe, *Disjoint paths in a network*（1974）：核查不相交最短路径问题与本基线的适用条件。
 - Nemhauser、Wolsey、Fisher，关于单调次模集合函数最大化近似的经典工作（1978）：核查精确题名与定理条件。
-- [RFC 4202](https://www.rfc-editor.org/rfc/rfc4202.html)：核查 shared risk link group 的定义及适用语境。它是术语/标准线索，不能代替学术现状检索。
+- [RFC 4202](https://www.rfc-editor.org/rfc/rfc4202.html)：本轮已读取原文第 2.3 节，核实 shared risk link group 的定义；见下方更新。它是术语/标准来源，不能代替学术现状检索。
 
 数学方案使用的是已知最大覆盖结构，不把它包装成新理论。
 
@@ -91,3 +91,19 @@ postseismic rainfall landslide road blockage
 ## 7. 文献核查的完成标准
 
 最接近的共同失效路线组合论文必须至少有可靠摘要，关键主张要读取正文；明确风险分组、空间区域失效和路线组合目标的已有工作后，才决定贡献表述。仅有 K 最短路径及滑坡预警文献不足以完成这一阶段。
+
+## 8. 网络复查后的新增线索
+
+新增记录见 [access_recheck_2026-10-08.json](../references/access_recheck_2026-10-08.json)。元数据、摘要与正文的访问层级分别记录，尚未开展完整引用追踪。
+
+| 文献/标准 | 已核查层级 | 实际支持的信息与下一步 |
+|---|---|---|
+| Neumayer & Modiano, 2010, *Network Reliability With Geographically Correlated Failures*；[DOI](https://doi.org/10.1109/infcom.2010.5461984) | Crossref 元数据、OpenAlex 提供的摘要 | 摘要说明随机地理灾害、随机线切与二端可靠性，地理几何影响网络存活；需读取正文，比较其可靠性分析与本方案路线组合选择的差异 |
+| Vass et al., 2026, *Availability-Aware Routing in Presence of Geographically Correlated Failures*；[DOI](https://doi.org/10.1109/infocom59046.2026.11571439) | Crossref 与 OpenAlex 元数据；未取得摘要或正文 | 题名高度接近，列为优先阅读全文的对象；不能仅凭题名断言目标、路线数量或方法已经相同 |
+| Datta & Somani, 2008, *Graph transformation approaches for diverse routing in shared risk resource group (SRRG) failures*；[DOI](https://doi.org/10.1016/j.comnet.2008.04.017) | Crossref 与 OpenAlex 元数据；未取得摘要或正文 | 共享风险组路线规划的重要对照线索，须核查其约束、算法及风险模型 |
+| Kincey et al., 2022, *Modelling post-earthquake cascading hazards: Changing patterns of landslide runout following the 2015 Gorkha earthquake, Nepal*；[DOI](https://doi.org/10.1002/esp.5501) | Crossref 元数据与摘要，DataCite 的机构存储记录 | 摘要明确使用多时相震后滑坡清单比较滑坡运动范围，并覆盖震后 4.5 年；这是数据与机理线索，不代表原始数据已取得，也不能直接支撑 24 小时道路风险预测 |
+| RFC 4202，第 2.3 节 | 官方原文 | 明确定义共享资源失效可影响一组链路，一条链路可属于多个风险组，并建议多样路线避免共同链路与共同 SRLG；共同风险分离的基本概念已有明确先例 |
+
+本轮结论是：共同风险与地理相关失效属于已有研究范畴。后续贡献应核查滑坡影响范围、道路脆弱性和独立灾害验证的具体差异，而非先宣称首次考虑共同失效。
+
+Crossref 原始搜索包含无关结果和服务错误；未筛选结果只作为检索记录，不作为相关文献清单。上述 2026 文献元数据在两个检索服务中一致，但方法与结果仍未核实。
